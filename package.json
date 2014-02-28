@@ -1,10 +1,10 @@
 {
   "name": "smarter-delete-line",
   "main": "./lib/smarter-delete-line",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
-  "description": "A short description of your package",
-  "repository": "https://github.com/atom/smarter-delete-line",
+  "description": "Delete to first character behavior, instead of to beginning of line",
+  "repository": "https://github.com/jmoses/atom-smarter-delete-line",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
