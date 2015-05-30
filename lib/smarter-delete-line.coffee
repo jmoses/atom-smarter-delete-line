@@ -1,7 +1,7 @@
 module.exports =
   activate: ->
-    atom.workspaceView.command 'smarter-delete-line:delete-to-first-character', '.editor', ->
-      editor = atom.workspaceView.getActivePaneItem()
+    atom.commands.add 'atom-text-editor', 'smarter-delete-line:delete-to-first-character',  ->
+      editor = atom.workspace.getActiveTextEditor()
 
       editor.mutateSelectedText (selection) ->
         if selection.isEmpty
